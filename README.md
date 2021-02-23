@@ -1,1 +1,3 @@
-# hw-3
+# Coding Challenge
+<hr>
+## About
