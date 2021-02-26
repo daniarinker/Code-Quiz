@@ -1,4 +1,4 @@
-const questionList = document.getElementById(questionList.question);
+// const questionList = document.getElementById(questionList.question);
 
 const correctA = document.getElementById("correctA");
 const answers = document.getElementById("answers");
@@ -6,8 +6,8 @@ const answers = document.getElementById("answers");
 let questionStart = "";
 let scoreStart = "";
 
-setInterval(function())
-let timeclock = 60;
+// setInterval(function())
+// let timeclock = 60;
 
 const questionList = [
   {
@@ -62,4 +62,21 @@ const questionList = [
   },
 ];
 
-console.log([correctA]);
+function startTimer() {
+  var counter = 60;
+  setInterval(function () {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    if (counter === 0) {
+      alert("Game over! You ran out of time.");
+      clearInterval(counter);
+    }
+  }, 1000);
+}
+function start() {
+  document.getElementById("count").style = "color:green;";
+  startTimer();
+}
