@@ -1,9 +1,36 @@
 button {
-  color: red;
+  color: purple;
   background-color: white;
-  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  margin-top: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: purple;
 }
 
 #count {
   color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: lavender;
+  max-width: 500px;
+}
+
+title {
+  font-size: 40px;
+}
+
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
