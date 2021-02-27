@@ -7,12 +7,22 @@
     <title>Dania's Coding Challenge</title>
   </head>
   <body>
+    <div class="wrongbox">Status</div>
     <div class="container">
       <div id="questionContainer" class="hide">
-          <div id ="question">question_prints_here</div>
-          <div id = "answerOptions"></div>
+        <div id="question">Question</div>
+        <div id="options" class="btn-grid">
+          <button class="btn">optionA</button>
+          <button class="btn">optionB</button>
+          <button class="btn">optionC</button>
+          <button class="btn">optionD</button>
+        </div>
+      </div>
+      <div class="quizControls">
+        <button id="startButton" class="start-btn-btn">Start Challenge</button>
+        <button id="nextButton" class="next-btn btn hide">Next Question</button>
+      </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"

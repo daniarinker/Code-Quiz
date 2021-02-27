@@ -14,19 +14,46 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header><h1>Coding Quiz Challenge</h1></header>
-    <p><span id="countdown">60</span> seconds remaining</p>
-    <div class="card">
-      <h4 class= "cart-title">questions_populate_here</h4>
-          <p class="card-body">answers_populate_here</p>
-    </div>        
-    <button id = "startButton" type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Good luck!">
-Click to Start    </button>
-    
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <script src="/main.js"></script>
+  <body>
+    <header>
+      <h1>Coding Quiz Challenge</h1>
+    </header>
+    <p><span id="countdown">60</span> seconds remaining</p>
+    <div class="questionCard">
+      <h2 class="questionCard title">Placeholder Question Text Here?</h2>
+      <ul class="questionCard answer">
+        <li>
+          <button class="questionCard button" onclick="">
+            This is an answer 1
+          </button>
+        </li>
+        <li>
+          <button class="questionCard button" onclick="">
+            This is an answer 2
+          </button>
+        </li>
+        <li>
+          <button class="questionCard button" onclick="">
+            This is an answer 3
+          </button>
+        </li>
+        <li>
+          <button class="questionCard button" onclick="">
+            This is an answer 4
+          </button>
+        </li>
+      </ul>
+    </div>
+    <button id="startButton" type="button" class="btn btn-secondary">
+      Click to Start
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/quiz.js"></script>
   </body>
 </html>
