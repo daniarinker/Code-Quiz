@@ -190,7 +190,6 @@ function appendChoice(choice, index) {
 function onSubmitInitials() {
   console.log(`intials enter`);
   // get intials text from the input element
-
 }
 
 // score screen
