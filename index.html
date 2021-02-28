@@ -19,34 +19,21 @@
     <header>
       <h1>Coding Quiz Challenge</h1>
     </header>
-    <p><span id="countdown">60</span> seconds remaining</p>
-    <div class="questionCard">
-      <h2 class="questionCard title">Placeholder Question Text Here?</h2>
-      <ul class="questionCard answer">
-        <li>
-          <button class="questionCard button" onclick="">
-            This is an answer 1
-          </button>
-        </li>
-        <li>
-          <button class="questionCard button" onclick="">
-            This is an answer 2
-          </button>
-        </li>
-        <li>
-          <button class="questionCard button" onclick="">
-            This is an answer 3
-          </button>
-        </li>
-        <li>
-          <button class="questionCard button" onclick="">
-            This is an answer 4
-          </button>
-        </li>
-      </ul>
+    <div id="questionCard" class="questionCard hide">
+      <p><span id="ticker">60</span> seconds remaining</p>
+      <h2 class="questionCard title"></h2>
+      <ul class="questionCard answer"></ul>
+    </div>
+    <div class="hide" id="scoreCard">
+      <h2>All Done!</h2>
+      <p>Score: 60</p>
+      <p>
+        Enter Initials: <input name="initials" type="text" />
+        <button onClick="onSubmitInitials()">Submit</button>
+      </p>
     </div>
     <button id="startButton" type="button" class="btn btn-secondary">
-      Click to Start
+      Start
     </button>
 
     <script
