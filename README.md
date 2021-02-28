@@ -52,4 +52,4 @@ or
 
 # Follow this link
 
-https://daniarinker.github.io/Code-Quiz
+<a href="https://daniarinker.github.io/Code-Quiz">Deployed Link</a>
