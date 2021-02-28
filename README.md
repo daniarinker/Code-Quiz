@@ -1,11 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Code Quiz" />
-
-&#xa0;
-
-  <!-- <a href="https://codequiz.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Code Quiz</h1>
 
 <p align="center">
@@ -60,9 +52,4 @@ or
 
 # Follow this link
 
-
-
-&#xa0;
-
-<a href="#top">Back to top</a>
-```
+https://daniarinker.github.io/Code-Quiz
